@@ -1,0 +1,45 @@
+# ------------------------------------------------ Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# 虛擬環境
+.venv/
+venv/
+env/
+ENV/
+
+# 測試 / 型別檢查快取
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ------------------------------------------------ PyInstaller
+# 打包中繼檔
+build/
+# 打包產出 (免安裝執行檔，不需進版控)
+dist/
+*.manifest
+
+# 注意: PasteExcelTool.spec 建議保留進版控，作為可重現的打包設定
+
+# ------------------------------------------------ Excel / Office
+# Excel 開啟檔案時產生的暫存鎖定檔
+~$*.xls
+~$*.xlsx
+~$*.xlsm
+~$*.xlsb
+*.xlsb.tmp
+
+# ------------------------------------------------ 執行時產出
+*.log
+
+# ------------------------------------------------ 編輯器 / 系統
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
